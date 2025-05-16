@@ -1,0 +1,17 @@
+[project]
+name = "comfyui-smart-scaler"
+version = "1.0.0"
+description = "Custom ComfyUI nodes for smart aspect ratio scaling and video preprocessing"
+authors = [{name = "babydjac", email = "kyron1mahan@yahoo.com"}]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.0.0",
+    "Pillow>=9.0.0",
+    "numpy>=1.24.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/babydjac/comfyui-smart-scaler"
+"Repository" = "https://github.com/babydjac/comfyui-smart-scaler.git"
